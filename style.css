@@ -1,0 +1,30 @@
+.main-content {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    justify-content: center;
+    gap: 100px;
+    height: 100vh;
+
+}
+
+.country-boarders{
+    display: flex;
+    flex-direction: column;
+}
+
+.country-info{
+    display: flex;
+    flex-direction: column;
+}
+
+p{
+    display: inline;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#country-flag{
+    font-size: 100px;
+    margin: 0;
+}
